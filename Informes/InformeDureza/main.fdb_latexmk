@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1794785460.86213 "c:/Users/neujo/OneDrive/Documentos/Repos Unal/CienciaIngenieriaMateriales/Informes/InformeDureza/main.tex" "main.pdf" "main" 1794785464.456 0
+["pdflatex"] 1794786520.60128 "c:/Users/neujo/OneDrive/Documentos/Repos Unal/CienciaIngenieriaMateriales/Informes/InformeDureza/main.tex" "main.pdf" "main" 1794786522.30693 0
   "C:/Users/neujo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1794696323 82507 a9eef8696c92627b87e9975edea03b2a ""
   "C:/Users/neujo/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1791325613 13402713 ddc24bc1517f1a0f33740663be8c53e9 ""
   "C:/Users/neujo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -230,9 +230,9 @@
   "Figuras/anexo_leco.jpg" 1794779231 226076 91071a6457fcd7537765618cdcab8cc6 ""
   "Figuras/anexo_wolpert.jpg" 1794779231 119812 38125ff4e4eaf09c369e62491d28da77 ""
   "Figuras/fig_knoop.jpg" 1794779231 106258 8b8d71449a7a321fea2ed15a7e61496e ""
-  "c:/Users/neujo/OneDrive/Documentos/Repos Unal/CienciaIngenieriaMateriales/Informes/InformeDureza/main.tex" 1794785456 44968 11c988122d3909b1b6827057dd4a4916 ""
-  "main.aux" 1794785464 7215 f4206d9386b1d2821e4e7fef42a4967b "pdflatex"
-  "main.tex" 1794785456 44968 11c988122d3909b1b6827057dd4a4916 ""
+  "c:/Users/neujo/OneDrive/Documentos/Repos Unal/CienciaIngenieriaMateriales/Informes/InformeDureza/main.tex" 1794786520 44998 15346a470e05941e6acf89cea105b574 ""
+  "main.aux" 1794786522 7215 f4206d9386b1d2821e4e7fef42a4967b "pdflatex"
+  "main.tex" 1794786520 44998 15346a470e05941e6acf89cea105b574 ""
   (generated)
   "main.aux"
   "main.log"
