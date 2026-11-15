@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.10.6)  15 NOV 2026 18:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.10.6)  15 NOV 2026 18:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -628,44 +628,44 @@ Package translations Info: loading dictionary `translations-basic-dictionary' fo
 Package pgfplots notification 'compat/show suggested version=true': you might benefit from \pgfplotsset{compat=1.18} (current compat level: 1.16).
 
 Package babel Info: Main language set to 'spanish'.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 65.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 66.
 (C:\Users\neujo\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 65.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 66.
  (C:\Users\neujo\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 65.
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 66.
  (C:\Users\neujo\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 ) [1{C:/Users/neujo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/neujo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}
 
 
 ]
-LaTeX Font Info:    Calculating math sizes for size <11> on input line 94.
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 95.
  [2]
-Underfull \hbox (badness 1430) in paragraph at lines 164--165
+Underfull \hbox (badness 1430) in paragraph at lines 165--166
 []\T1/ptm/b/n/11 Durómetro Rock-well Wol-pert (Ams-ler Ot-to
  []
 
 
-Underfull \hbox (badness 4543) in paragraph at lines 279--279
+Underfull \hbox (badness 4543) in paragraph at lines 280--280
 []|\T1/ptm/m/n/9 Cono (C); bo-la
  []
 
 
-Underfull \hbox (badness 1997) in paragraph at lines 280--280
+Underfull \hbox (badness 1997) in paragraph at lines 281--281
 []|\T1/ptm/m/n/9 Carga to-tal
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 282--282
+Underfull \hbox (badness 10000) in paragraph at lines 283--283
 []|\T1/ptm/m/n/9 Escala del
  []
 
 
-Underfull \hbox (badness 3449) in paragraph at lines 282--282
+Underfull \hbox (badness 3449) in paragraph at lines 283--283
 []|\T1/ptm/m/n/9 Negra (C); ro-ja
  []
 
@@ -679,60 +679,60 @@ Underfull \vbox (badness 1466) has occurred while \output is active []
 <Figuras/fig_knoop.jpg, id=38, 487.8225pt x 487.8225pt>
 File: Figuras/fig_knoop.jpg Graphic file (type jpg)
 <use Figuras/fig_knoop.jpg>
-Package pdftex.def Info: Figuras/fig_knoop.jpg  used on input line 401.
+Package pdftex.def Info: Figuras/fig_knoop.jpg  used on input line 402.
 (pdftex.def)             Requested size: 201.60077pt x 201.60144pt.
  [6]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [7 <./Figuras/fig_knoop.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 491--492
+Underfull \hbox (badness 10000) in paragraph at lines 492--493
 []\T1/ptm/b/n/11 Knoop. $[] \OT1/cmr/m/n/10.95 = 14[]229 \OMS/cmsy/m/n/10.95 ^^A \OT1/cmr/m/n/10.95 0[]5\OML/cmm/m/it/10.95 =\OT1/cmr/m/n/10.95 (0[]1202)[] =
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 491--492
+Underfull \hbox (badness 10000) in paragraph at lines 492--493
 \OT1/cmr/m/n/10.95 492[]4$ \T1/ptm/m/n/11 kgf/mm$[]$; $\OMS/cmsy/m/n/10.95 ^^B\OT1/cmr/m/n/10.95 9[]80665 = 4829$ \T1/ptm/m/n/11 MPa.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 491--492
+Underfull \hbox (badness 10000) in paragraph at lines 492--493
 \OML/cmm/m/it/10.95 b \OT1/cmr/m/n/10.95 = 120[]2\OML/cmm/m/it/10.95 =\OT1/cmr/m/n/10.95 7[]11 = 16[]9$ \TS1/ptm/m/n/11 µ\T1/ptm/m/n/11 m; pro-fun-di-dad
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 491--492
+Underfull \hbox (badness 10000) in paragraph at lines 492--493
 \OMS/cmsy/m/n/10.95 ^^Y \OT1/cmr/m/n/10.95 120[]2\OML/cmm/m/it/10.95 =\OT1/cmr/m/n/10.95 30[]5 = 3[]9$ \TS1/ptm/m/n/11 µ\T1/ptm/m/n/11 m. Sen-si-bi-li-dad:
  []
 
 <Figuras/anexo_wolpert.jpg, id=46, 602.25pt x 1204.5pt>
 File: Figuras/anexo_wolpert.jpg Graphic file (type jpg)
 <use Figuras/anexo_wolpert.jpg>
-Package pdftex.def Info: Figuras/anexo_wolpert.jpg  used on input line 497.
+Package pdftex.def Info: Figuras/anexo_wolpert.jpg  used on input line 498.
 (pdftex.def)             Requested size: 99.57831pt x 199.16928pt.
 <Figuras/anexo_caratula.jpg, id=47, 963.6pt x 1284.8pt>
 File: Figuras/anexo_caratula.jpg Graphic file (type jpg)
 <use Figuras/anexo_caratula.jpg>
-Package pdftex.def Info: Figuras/anexo_caratula.jpg  used on input line 500.
+Package pdftex.def Info: Figuras/anexo_caratula.jpg  used on input line 501.
 (pdftex.def)             Requested size: 149.37115pt x 199.16928pt.
 <Figuras/anexo_leco.jpg, id=48, 918.43124pt x 1224.575pt>
 File: Figuras/anexo_leco.jpg Graphic file (type jpg)
 <use Figuras/anexo_leco.jpg>
-Package pdftex.def Info: Figuras/anexo_leco.jpg  used on input line 503.
+Package pdftex.def Info: Figuras/anexo_leco.jpg  used on input line 504.
 (pdftex.def)             Requested size: 149.37643pt x 199.16928pt.
 <Figuras/anexo_disco_acero.jpg, id=49, 361.35pt x 361.35pt>
 File: Figuras/anexo_disco_acero.jpg Graphic file (type jpg)
 <use Figuras/anexo_disco_acero.jpg>
-Package pdftex.def Info: Figuras/anexo_disco_acero.jpg  used on input line 512.
+Package pdftex.def Info: Figuras/anexo_disco_acero.jpg  used on input line 513.
 (pdftex.def)             Requested size: 142.26578pt x 142.26378pt.
 <Figuras/anexo_barra_cobre.jpg, id=50, 501.875pt x 501.875pt>
 File: Figuras/anexo_barra_cobre.jpg Graphic file (type jpg)
 <use Figuras/anexo_barra_cobre.jpg>
-Package pdftex.def Info: Figuras/anexo_barra_cobre.jpg  used on input line 515.
+Package pdftex.def Info: Figuras/anexo_barra_cobre.jpg  used on input line 516.
 (pdftex.def)             Requested size: 142.26239pt x 142.26378pt.
 <Figuras/anexo_baquelita.jpg, id=51, 602.25pt x 602.25pt>
 File: Figuras/anexo_baquelita.jpg Graphic file (type jpg)
 <use Figuras/anexo_baquelita.jpg>
-Package pdftex.def Info: Figuras/anexo_baquelita.jpg  used on input line 518.
+Package pdftex.def Info: Figuras/anexo_baquelita.jpg  used on input line 519.
 (pdftex.def)             Requested size: 142.26393pt x 142.26378pt.
 [8
 
@@ -754,7 +754,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  92i,12n,94p,1617b,2264s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/neujo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/neujo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/neujo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/neujo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/neujo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/neujo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/neujo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/neujo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/neujo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/neujo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/neujo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/neujo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/neujo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/neujo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Users/neujo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/neujo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/neujo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/neujo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (9 pages, 1126958 bytes).
+Output written on main.pdf (9 pages, 1127014 bytes).
 PDF statistics:
  133 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
