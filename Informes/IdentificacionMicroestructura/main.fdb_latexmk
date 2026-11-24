@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1795499620.18675 "c:/Users/neujo/OneDrive/Documentos/Repos Unal/CienciaIngenieriaMateriales/Informes/IdentificacionMicroestructura/main.tex" "main.pdf" "main" 1795499623.33852 0
+["pdflatex"] 1795531425.94062 "c:/Users/neujo/OneDrive/Documentos/Repos Unal/CienciaIngenieriaMateriales/Informes/IdentificacionMicroestructura/main.tex" "main.pdf" "main" 1795531430.07827 0
   "C:/Users/neujo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1795498307 82507 a9eef8696c92627b87e9975edea03b2a ""
   "C:/Users/neujo/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1795498379 13407175 9cfd44fc25ee2d1c803951b17efe28b6 ""
   "C:/Users/neujo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -178,9 +178,9 @@
   "Figuras/fig_fe_fe3c.pdf" 1795498403 44008 9dcdd6a770b2465d924b6726e55e2ec7 ""
   "Figuras/fig_palanca.pdf" 1795498399 27739 9093e78d0d345fa609b99cee9f780cfc ""
   "Figuras/fig_series_carbono.png" 1795496654 1324893 5955f3533f30c912d477ca6e89232ec6 ""
-  "c:/Users/neujo/OneDrive/Documentos/Repos Unal/CienciaIngenieriaMateriales/Informes/IdentificacionMicroestructura/main.tex" 1795499615 32863 ce57d5e7df79f3acaa7f000cca7bdc12 ""
-  "main.aux" 1795499623 6016 cd75cee2a7279e360478619ded778bde "pdflatex"
-  "main.tex" 1795499615 32863 ce57d5e7df79f3acaa7f000cca7bdc12 ""
+  "c:/Users/neujo/OneDrive/Documentos/Repos Unal/CienciaIngenieriaMateriales/Informes/IdentificacionMicroestructura/main.tex" 1795531419 33869 97af57d67d670558cbc11963c6246b6d ""
+  "main.aux" 1795531429 6158 ae38085a89b3e7281e5af17e45f7bb8e "pdflatex"
+  "main.tex" 1795531419 33869 97af57d67d670558cbc11963c6246b6d ""
   (generated)
   "main.aux"
   "main.fls"

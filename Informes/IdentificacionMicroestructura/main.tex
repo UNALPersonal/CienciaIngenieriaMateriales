@@ -14,17 +14,15 @@
 \usepackage{cite}
 \usepackage{microtype}
 \usepackage{tikz}
-\usetikzlibrary{arrows.meta,positioning,babel} % 'babel' evita el choque de < > con babel-spanish
+\usetikzlibrary{arrows.meta,positioning,babel}
 
 \graphicspath{{./}{./Figuras/}}
 
 \renewcommand{\figurename}{Fig.}
 
 % --- Atajos ---
-% Porcentaje seguro con babel-spanish (\pct en modo matematico produce 'Incompatible glue units').
-% Usar \pct en lugar de \pct  ->  0.77\pct = 0.77 %
 \newcommand{\pct}{\ifmmode\mskip\thinmuskip\mathchar"0025\relax\else\,\char37\relax\fi}
-\newcommand{\pC}[1]{\ensuremath{#1\mskip\thinmuskip\mathchar"0025\mskip\thinmuskip\mathrm{C}}} % 0.20 % C
+\newcommand{\pC}[1]{\ensuremath{#1\mskip\thinmuskip\mathchar"0025\mskip\thinmuskip\mathrm{C}}}
 \newcommand{\FeFeC}{Fe--Fe$_3$C}
 
 \begin{document}
@@ -41,7 +39,7 @@
         Angélica Plata Martínez,
         Sergio Correales Sarmiento, \\
         Daniel Alejandro Carvajal Guecha y
-        Paula Stephania Perez Gil
+        Paula Stephania Pérez Gil
     }\\
     \IEEEauthorblockA{
         \textit{Departamento de Ingeniería Mecánica y Mecatrónica, Facultad de Ingeniería}\\
@@ -55,7 +53,7 @@
 \maketitle
 
 % ==============================================================================
-% RESUMEN (máx. 250 palabras: background, objetivo, metodología, resultados, conclusiones)
+% RESUMEN
 % ==============================================================================
 \begin{abstract}
 La microestructura de las aleaciones ferrosas determina sus propiedades mecánicas y depende de su composición y de su historia térmica. Este trabajo tuvo como objetivo identificar, mediante microscopía óptica de luz reflejada, las inclusiones no metálicas y las microestructuras de aceros al carbono (hierro puro, AISI 1005, 1020, 1045, 1060 y 1080), aceros aleados (4340 en estado de entrega, templado y templado con revenido; 8620 y H13) y fundiciones de hierro (gris y blanca), y relacionarlas con el diagrama \FeFeC. Las probetas se observaron primero sin ataque, para evaluar las inclusiones según la norma ASTM E45, y luego atacadas con Nital; las observaciones se registraron en apuntes y esquemas morfológicos, sin captura de imágenes. Se identificaron óxidos globulares y sulfuros alargados; ferrita de granos alargados en el hierro puro y equiaxiales en el AISI 1005; un aumento progresivo de la perlita con el contenido de carbono, cuya proporción teórica según la regla de la palanca pasa de $\approx 4\pct$ (AISI 1005) a $\approx 100\pct$ (AISI 1080); grafito laminar en la fundición gris y ledeburita en la blanca; y estructuras de temple, cementación y carburos en los aceros aleados. Se concluye que el carbono controla la fracción de perlita y que los tratamientos térmicos y termoquímicos modifican de forma drástica la microestructura; la cuantificación experimental de fases queda como trabajo futuro.
@@ -112,6 +110,11 @@ La secuencia seguida se resume en la Fig.~\ref{fig:diagrama_flujo}. Por restricc
 \label{fig:diagrama_flujo}
 \end{figure}
 
+\subsection{Fundamentos Teóricos}
+La microscopía óptica de luz reflejada (epi-iluminación) se fundamenta en la reflexión diferencial que experimenta un haz incrustado de luz visible al incidir sobre la superficie especular de un material opaco. El contraste de las fases depende de las variaciones de reflectividad óptica y de la topografía microestructural generada durante la preparación.
+
+El ataque químico selectivo aprovecha la diferencia de potencial electroquímico y de energía libre interfacial entre los constituyentes de la aleación. Al emplear Nital (solución de ácido nítrico en etanol), las moléculas del ácido disuelven preferentemente la ferrita ($\alpha$) y atacan las zonas de alta densidad energética, como los límites de grano y las interfaces interlaminares de la perlita. Esta disolución diferencial crea microsurcos topográficos. La luz que incide en estos surcos e interfaces se dispersa fuera del cono de captación del objetivo, observándose zonas oscuras en campo claro. Por el contrario, fases más nobles o insolubles (como la cementita, $\mathrm{Fe_3C}$) no reaccionan y permanecen planas y brillantes por reflexión directa.
+
 \subsection{Material}
 Se analizaron aceros al carbono (hierro puro y AISI 1005, 1020, 1045, 1060 y 1080), aceros aleados (AISI 4340 en estado de entrega, templado y templado con revenido; 8620 y H13) y fundiciones de hierro (gris y blanca eutéctica). Las composiciones nominales de carbono se indican en la Tabla~\ref{tab:resumen_muestras}.
 
@@ -126,12 +129,9 @@ El haz de la fuente atraviesa la lente condensadora y el diafragma, se desvía h
   inc/.style={orange!85!black,dashed,thick,->},
   ref/.style={red!75!black,thick,->}]
   \def\xc{4.4}
-  % ---- trayectorias (se dibujan primero para quedar bajo los bloques)
   \draw[inc] (1.15,3.55)--(\xc-0.1,3.55)--(\xc-0.1,1.1);
   \draw[ref] (\xc+0.1,1.0)--(\xc+0.1,4.75);
-  % ---- espejo semitransparente (45 grados, orientado de arriba-izquierda a abajo-derecha)
   \draw[blue!60!black,line width=2pt] (\xc-0.4,3.85)--(\xc+0.4,3.05);
-  % ---- elementos
   \node[box,fill=violet!12] at (\xc,5.15) {Ocular ($10\times$)};
   \node[box,fill=green!12,minimum width=2.3cm] at (\xc,1.95) {Objetivo\\($20\times$, $50\times$)};
   \node[draw,fill=gray!25,minimum width=3.4cm,minimum height=0.4cm] at (\xc,0.7) {Probeta pulida / atacada};
@@ -144,7 +144,6 @@ El haz de la fuente atraviesa la lente condensadora y el diafragma, se desvía h
   \node[align=left,anchor=west] (esp) at (5.35,4.15) {Espejo\\semitransparente\\($45^{\circ}$)};
   \draw[->,blue!60!black] (esp.south west)++(0.02,0.05) to[bend right=12] (\xc+0.3,3.2);
   \node[anchor=west,align=left] at (5.35,5.15) {Aumento total:\\$200\times$--$500\times$};
-  % ---- leyenda
   \draw[inc] (0.1,5.2)--(0.7,5.2); \node[anchor=west] at (0.75,5.2) {Haz incidente};
   \draw[ref] (0.1,4.85)--(0.7,4.85); \node[anchor=west] at (0.75,4.85) {Haz reflejado};
 \end{tikzpicture}
@@ -155,7 +154,7 @@ El haz de la fuente atraviesa la lente condensadora y el diafragma, se desvía h
 \subsection{Procedimiento}
 Las probetas fueron preparadas por el personal técnico del laboratorio según la práctica metalográfica convencional (corte, desbaste y pulido hasta acabado espejo) \cite{astm_e3,asm9}.
 Los parámetros de preparación (abrasivos y tiempos de desbaste y pulido) y de ataque (concentración del Nital y tiempo de inmersión) no fueron suministrados durante la práctica y por ello no se reportan; los rótulos ``Nital 2\pct'' de los esquemas indican una concentración típica de referencia (en la literatura se emplean concentraciones de 1 a 4\pct\ \cite{vasko}), no un dato medido.
-Cada probeta se observó primero \emph{sin ataque} para evaluar las inclusiones y después se atacó con Nital. Este reactivo disuelve preferentemente los límites de grano y la ferrita, de modo que la cementita queda en relieve; la perlita laminar dispersa la luz y se ve oscura frente a la ferrita clara. Se registraron la morfología de cada fase y, para el AISI 1080 ($500\times$) y el H13 ($200\times$), el aumento utilizado.
+Cada probeta se observó primero \emph{sin ataque} para evaluar las inclusiones y después se atacó con Nital. Este reactivo disuelve preferentemente los límites de grano y la ferrita, de modo que la cementita queda en relief; la perlita laminar dispersa la luz y se ve oscura frente a la ferrita clara. Se registraron la morfología de cada fase y, para el AISI 1080 ($500\times$) y el H13 ($200\times$), el aumento utilizado.
 
 \subsection{Estimación teórica de fases}
 Para un acero hipoeutectoide con contenido de carbono $C_0$ ($C_0<0.77\pct$), la fracción de perlita se obtiene aplicando la regla de la palanca sobre la línea de reparto a $727\,^{\circ}$C (Fig.~\ref{fig:diagrama_fe_fe3c}b):
@@ -222,7 +221,7 @@ AISI 1060 & 0.60 & Nital & Perlita mayoritaria con ferrita residual & 77 / 23 \\
 AISI 1080 ($500\times$) & $\approx 0.8$ & Nital & Perlita laminar & $\approx$ 100 / 0 \\
 AISI 4340 & 0.40 & Estado de entrega & Ferrita en islas redondeadas/alargadas y perlita & --- \\
 AISI 4340 & 0.40 & Temple (tratamiento no aceptable) & Martensita acicular sin revenir & --- \\
-AISI 4340 & 0.40 & Templado y revenido & Martensita revenida de aspecto fino y denso & --- \\
+AISI 4340 & 0.40 & Templado y revenido & Martensita revenida de aspecto fino y denso con austenita retenida & --- \\
 AISI 8620 & 0.20 & Cementado & Capa martensítica superficial y núcleo ferrítico-perlítico & --- \\
 Acero H13 ($200\times$) & 0.40 & --- & Matriz martensítica con carburos de cromo blancos y alargados & --- \\
 Fundición gris & 2.5--4.0 (típ.) & Nital & Grafito laminar (flake) & --- \\
@@ -246,7 +245,7 @@ En la \textbf{fundición gris} el carbono se presenta como grafito, una forma al
 \subsection{Estructuras fuera de equilibrio y tratamientos térmicos}
 \begin{itemize}
     \item \textbf{Martensita de temple (AISI 4340).} El temple produjo martensita en agujas (Fig.~\ref{fig:especiales}c). Sin revenido es muy dura pero frágil y con tensiones residuales, por lo que el tratamiento se consideró no aceptable para servicios que exigen tenacidad \cite{callister}.
-    \item \textbf{Martensita revenida (AISI 4340).} El mismo acero, templado y revenido, muestra una morfología (Fig.~\ref{fig:especiales}d) que se parece a la de los libros de texto; el revenido alivia tensiones y mejora la tenacidad a costa de parte de la dureza \cite{callister,asm9}. Así, el AISI 4340 se observó en tres condiciones (entrega, temple y temple con revenido), lo que permite comparar directamente el efecto del tratamiento sobre un mismo material.
+    \item \textbf{Martensita revenida (AISI 4340).} El mismo acero, templado y revenido, muestra una morfología de agujas finas y densas (Fig.~\ref{fig:especiales}d); el revenido alivia tensiones y mejora la tenacidad a costa de parte de la dureza \cite{callister,asm9}. En esta probeta se identificó además la presencia de austenita retenida junto a las agujas martensíticas, lo que evidencia una transformación martensítica incompleta durante el temple rápido previo y su posterior descomposición parcial en constituyentes más estables durante el calentamiento de revenido \cite{clarke}. Así, el AISI 4340 se observó en tres condiciones (entrega, temple y temple con revenido), lo que permite comparar directamente el efecto del tratamiento sobre un mismo material.
     \item \textbf{Acero 8620 cementado.} Se observó un gradiente (Fig.~\ref{fig:especiales}f): la baquelita de montaje, una zona de cementación martensítica superficial y un núcleo ferrítico-perlítico ($\approx\pC{0.20}$). Esta combinación (superficie dura, núcleo tenaz) es el objetivo del tratamiento termoquímico.
     \item \textbf{Acero H13 ($200\times$).} Sobre una matriz martensítica se distinguieron estructuras blancas alargadas, que corresponden a carburos de cromo propios de los aceros para herramientas (Fig.~\ref{fig:especiales}e). El H13 es un acero Cr--Mo--V de trabajo en caliente cuyos carburos aportan resistencia al desgaste y dureza en caliente \cite{asm9}.
 \end{itemize}
@@ -273,10 +272,10 @@ Para validar cuantitativamente estas tendencias se recomienda registrar imágene
 Se agradece al técnico y al personal del laboratorio del Departamento de Ingeniería Mecánica y Mecatrónica por la preparación de las probetas y la operación de los microscopios.
 
 \section*{Participación de los autores}
-La preparación de las probetas y la operación de los microscopios estuvieron a cargo del técnico del laboratorio. Todos los autores asistieron a la práctica y participaron en la observación de las probetas; cada uno registró en apuntes y esquemas las muestras que se indican y redactó las secciones correspondientes. J.~J.~Tobar: observó las inclusiones sin ataque (ASTM E45), el hierro puro y el AISI 1005, y redactó la Introducción (antecedentes, trabajos recientes, aporte y objetivos). A.~Plata: observó los aceros AISI 1020, 1045 y 1060, y redactó el Desarrollo experimental (material, equipos y procedimiento) y elaboró los esquemas de la secuencia experimental y del microscopio. S.~Correales: observó el AISI 1080 ($500\times$), el AISI 4340 en estado de entrega y la fundición gris; realizó los cálculos de la regla de la palanca, elaboró las figuras del diagrama \FeFeC{} y de la fracción de perlita, y redactó la Estimación teórica de fases y la discusión de los aceros al carbono. D.~A.~Carvajal: observó la fundición blanca y el AISI 4340 templado y revenido, elaboró la tabla resumen y los esquemas de las microestructuras, y redactó la discusión de inclusiones, estado de entrega y fundiciones. P.~S.~Perez: observó el acero 8620 cementado y el acero H13 ($200\times$), y redactó el Resumen, la discusión de estructuras fuera de equilibrio, las Limitaciones y las Conclusiones. La integración del documento en \LaTeX, la revisión de las referencias y la revisión final del texto fueron realizadas por todos los autores.
+La preparación de las probetas y la operación de los microscopios estuvieron a cargo del técnico del laboratorio. Todos los autores asistieron a la práctica y participaron en la observación de las probetas; cada uno registró en apuntes y esquemas las muestras que se indican y redactó las secciones correspondientes. J.~J.~Tobar: observó las inclusiones sin ataque (ASTM E45), el hierro puro y el AISI 1005, y redactó la Introducción (antecedentes, trabajos recientes, aporte y objetivos). A.~Plata: observó los aceros AISI 1020, 1045 y 1060, y redactó el Desarrollo experimental (fundamentos teóricos, material, equipos y procedimiento) y elaboró los esquemas de la secuencia experimental y del microscopio. S.~Correales: observó el AISI 1080 ($500\times$), el AISI 4340 en estado de entrega y la fundición gris; realizó los cálculos de la regla de la palanca, elaboró las figuras del diagrama \FeFeC{} y de la fracción de perlita, y redactó la Estimación teórica de fases y la discusión de los aceros al carbono. D.~A.~Carvajal: observó la fundición blanca y el AISI 4340 templado y revenido, elaboró la tabla resumen y los esquemas de las microestructuras, y redactó la discusión de inclusiones, estado de entrega y fundiciones. P.~S.~Pérez: observó el acero 8620 cementado y el acero H13 ($200\times$), y redactó el Resumen, la discusión de estructuras fuera de equilibrio, las Limitaciones y las Conclusiones. La integración del documento en \LaTeX, la revisión de las referencias y la revisión final del texto fueron realizadas por todos los autores.
 
 % ==============================================================================
-% REFERENCIAS (en orden de primera citación)
+% REFERENCIAS
 % ==============================================================================
 \begin{thebibliography}{14}
 \bibitem{smith} W. F. Smith y J. Hashemi, \textit{Fundamentos de la Ciencia e Ingeniería de Materiales}, 3ª ed. México: McGraw-Hill, 2004.
