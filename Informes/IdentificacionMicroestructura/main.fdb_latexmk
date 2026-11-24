@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1795491163.32493 "c:/Users/neujo/OneDrive/Documentos/Repos Unal/CienciaIngenieriaMateriales/Informes/IdentificacionMicroestructura/main.tex" "main.pdf" "main" 1795491166.60107 0
+["pdflatex"] 1795495073.70866 "c:/Users/neujo/OneDrive/Documentos/Repos Unal/CienciaIngenieriaMateriales/Informes/IdentificacionMicroestructura/main.tex" "main.pdf" "main" 1795495076.30274 0
   "C:/Users/neujo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1795489605 82507 a9eef8696c92627b87e9975edea03b2a ""
   "C:/Users/neujo/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1795190088 13407175 d2c3d293c80999fa5c9b9d97d0294ac8 ""
   "C:/Users/neujo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -181,13 +181,13 @@
   "C:/Users/neujo/AppData/Local/Programs/MiKTeX/tex/latex/tools/array.sty" 1793366916 17611 67b5fb6ce86687c2a79cc0e3eeec4449 ""
   "C:/Users/neujo/AppData/Local/Programs/MiKTeX/tex/latex/tools/tabularx.sty" 1793366916 7243 8b721d4f043b17b3e2ea32173c7958d7 ""
   "C:/Users/neujo/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
-  "Figuras/diagrama_fe_fe3c_muestras.png" 1795490598 373352 ae586e8de95aa02d6769b1053bee8654 ""
-  "Figuras/esquema_inclusiones_microestructuras.png" 1795490611 1343223 cfb323bb179d72d840593f7479503a2c ""
-  "Figuras/esquema_microscopio_metalografico.png" 1795488067 151461 7551e4ebb630f5f8c5c3d06db1d3f96b ""
+  "Figuras/diagrama_fe_fe3c_muestras.png" 1795494961 494582 86505688912720897e2a351da175cc54 ""
+  "Figuras/esquema_inclusiones_microestructuras.png" 1795491703 908646 3d73a342f1d03dd8709225659b453b6b ""
+  "Figuras/esquema_microscopio_metalografico.png" 1795493352 181658 6546e49a93e77ef1bcd9b4189fa35697 ""
   "Figuras/grafica_palanca_carbono.jpg" 1795489479 402475 f455cecffd1d67121801cbecd27a5d9b ""
-  "c:/Users/neujo/OneDrive/Documentos/Repos Unal/CienciaIngenieriaMateriales/Informes/IdentificacionMicroestructura/main.tex" 1795491165 24006 62d9ee431f8b8e5b524289a9382ec5f2 ""
-  "main.aux" 1795491166 4202 a5ee8dc08422f56ceaf67460be07b63b "pdflatex"
-  "main.tex" 1795491165 24006 62d9ee431f8b8e5b524289a9382ec5f2 ""
+  "c:/Users/neujo/OneDrive/Documentos/Repos Unal/CienciaIngenieriaMateriales/Informes/IdentificacionMicroestructura/main.tex" 1795492959 22929 024693b16a9c1afd02d55cf6404cc150 ""
+  "main.aux" 1795495075 4152 b4e39115092d320a445d32f1d5baa9a9 "pdflatex"
+  "main.tex" 1795492959 22929 024693b16a9c1afd02d55cf6404cc150 ""
   (generated)
   "main.aux"
   "main.fls"

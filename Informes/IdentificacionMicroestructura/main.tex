@@ -66,7 +66,7 @@ Microscopía metalográfica, ataque químico, inclusiones, regla de la palanca, 
 \section{Introducción}
 \IEEEPARstart{L}{a} metalografía es la ciencia que estudia la constitución estructural de los metales y aleaciones, permitiendo correlacionar de forma directa el tratamiento mecánico y térmico de un material con su comportamiento en servicio \cite{smith}. El análisis microestructural mediante microscopía óptica de luz reflejada es la técnica más accesible y extendida para determinar la calidad de una aleación, estimar sus propiedades mecánicas (como resistencia y tenacidad) y diagnosticar fallas. 
 
-En aleaciones ferrosas, las propiedades mecánicas están regidas por las fases presentes (ferrita, cementita, perlita, martensita, etc.), el tamaño y la morfología del grano, y la presencia de impurezas inevitables conocidas como inclusiones no metálicas \cite{callister}. Estas inclusiones, como óxidos y sulfuros, se originan durante el proceso de desoxidación y solidificación del acero. Su forma, cantidad y distribución alteran la isotropía del material, pudiendo actuar como concentradores de esfuerzos y favorecer la falla por fatiga o impacto \cite{ashby2}.
+En aleaciones ferrosas, las propiedades mecánicas están regidas por las fases presentes (ferrita, cementita, perlita, martensita, etc.), el tamaño y la morfología del grano, y la presencia de impuritys inevitables conocidas como inclusiones no metálicas \cite{callister}. Estas inclusiones, como óxidos y sulfuros, se originan durante el proceso de desoxidación y solidificación del acero. Su forma, cantidad y distribución alteran la isotropía del material, pudiendo actuar como concentradores de esfuerzos y favorecer la falla por fatiga o impacto \cite{ashby2}.
 
 Un aspecto crítico de la preparación metalográfica es el orden de revelado: las inclusiones deben evaluarse en la condición de pulido ``espejo'' (sin ataque), ya que el ataque químico posterior degrada la matriz circundante, pudiendo enmascararlas, disolverlas o confundirlas con picaduras o fases oscuras como la perlita. Posteriormente, el ataque con reactivos específicos (usualmente Nital al 2\% para aceros) revela los límites de grano y la microestructura al atacar selectivamente zonas de alta energía o fases con distinta reactividad química \cite{shackelford}.
 
@@ -137,23 +137,40 @@ La observación de los aceros en estado sin ataque (pulido espejo) reveló una d
 \end{itemize}
 Su cuantificación y clasificación se realiza bajo la norma ASTM E45 mediante patrones de comparación para determinar la severidad de inclusiones tipo A (sulfuros), B (aluminatos), C (silicatos) y D (óxidos globulares).
 
+% ==============================================================================
+% TABLA RESUMEN DE MUESTRAS
+% ==============================================================================
+\begin{table*}[t]
+\centering
+\caption{Resumen Microestructural, Morfológico y Normas Aplicables de las Muestras de la Práctica}
+\label{tab:resumen_muestras}
+\renewcommand{\arraystretch}{1.2}
+\footnotesize
+\begin{tabularx}{\textwidth}{@{} >{\raggedright\arraybackslash}p{2.6cm} c >{\raggedright\arraybackslash}p{2.8cm} >{\raggedright\arraybackslash}X c @{}}
+\toprule
+\textbf{Material / Probeta} & \textbf{\% C} & \textbf{Tratamiento / Estado} & \textbf{Fases e Inclusiones Observadas} & \textbf{Norma} \\ \midrule
+Inclusiones (Aceros) & Variable & Sin ataque (pulido) & Óxidos (redondeados) y Sulfuros (alargados) & ASTM E45 / E407 \\
+Hierro Puro & $\sim 0$ & Deformado en frío & Ferrita con granos alargados & ASTM E112 \\
+AISI 1005 & 0.05 & Recocido & Ferrita equiaxial, límites oscuros (trazas de perlita) & ASTM E112 \\
+AISI 1020 & 0.20 & Estado de entrega & Ferrita ($\sim$ 75\%) y Perlita oscura ($\sim$ 25\%) & ASTM E112 \\
+AISI 1045 & 0.45 & Estado de entrega & Ferrita ($\sim$ 42\%) y Perlita ($\sim$ 58\%) circular/alargada & ASTM E112 \\
+AISI 1060 & 0.60 & Normalizado & Perlita mayoritaria ($\sim$ 78\%) y red de Ferrita ($\sim$ 22\%) & ASTM E112 \\
+AISI 1080 (500x) & 0.77 & Eutectoide & 100\% Perlita laminar basta & ASTM E112 \\
+AISI 4340 & 0.40 & Estado de entrega & Ferrita y Perlita con menor dureza para mecanizado & ASTM E112 \\
+Acero 2320 & 0.20 & Templado (malo) & Martensita en agujas (alta fragilidad, sin revenir) & ASTM E407 \\
+Acero 8620 & 0.20 & Cementado y templado & Capa martensítica dura y núcleo ferrítico-perlítico tenaz & ASTM E407 \\
+Acero H13 (200x) & 0.40 & Templado y revenido & Carburos complejos de Cr/V/Mo en martensita revenida & ASTM E407 \\
+Fundición Gris & 2.5 -- 4.0 & Enfriamiento lento & Grafito alargado (láminas/flake) en matriz metalúrgica & ASTM A247 \\
+Fundición Blanca & 2.5 -- 4.0 & Enfriamiento rápido & Ledeburita (matriz eutéctica cementita + austenita) & ASTM A247 \\ \bottomrule
+\end{tabularx}
+\end{table*}
+
 \begin{figure*}[htbp]
 \centering
-\includegraphics[width=0.98\textwidth]{esquema_inclusiones_microestructuras}
+\includegraphics[width=0.96\textwidth]{esquema_inclusiones_microestructuras}
 \caption{Esquemas morfológicos detallados observados al microscopio para todas las muestras evaluadas: (a) Inclusiones no metálicas sin ataque (ASTM E45), (b) Variación de ferrita alargada a equiaxial, (c) Evolución de perlita con el \%C, (d) Fundición gris (laminar) y blanca (ledeburita), (e) Estructuras fuera de equilibrio (martensita y carburos H13), y (f) Gradiente microestructural en acero 8620 cementado.}
 \label{fig:estructuras}
 \end{figure*}
-
-\subsection{Microestructuras de Aceros al Carbono}
-Tras el ataque con Nital al 2\%, se revelaron los constituyentes en equilibrio de la serie de aceros al carbono, cuyas morfologías se esquematizan en la Fig. \ref{fig:estructuras} y se ubican térmicamente en el diagrama $Fe-Fe_3C$ de la Fig. \ref{fig:diagrama_fe_fe3c}:
-\begin{itemize}
-    \item \textbf{Hierro Puro}: Presentó una microestructura casi 100\% ferrítica con granos alargados (Fig. \ref{fig:estructuras}b, izq.) debido a un proceso previo de deformación en frío no recristalizado, con un contenido de carbono infinitesimal.
-    \item \textbf{AISI 1005 (0.05\% C)}: Constituido por granos de ferrita equiaxiales (Fig. \ref{fig:estructuras}b, der.) con bordes de grano bien definidos y una mínima fracción de perlita en los límites, debido a su bajísimo contenido de carbono.
-    \item \textbf{AISI 1020 (0.20\% C)}: Acero hipoeutectoide con una matriz mayoritaria de ferrita proeutectoide (clara) y aproximadamente un 25\% de colonias de perlita (oscura) en forma de parches o colonias en los límites de grano (Fig. \ref{fig:estructuras}c, izq.).
-    \item \textbf{AISI 1045 (0.45\% C)}: Estructura mixta de ferrita y perlita en proporciones similares ($\sim$ 58\% de perlita y $\sim$ 42\% de ferrita).
-    \item \textbf{AISI 1060 (0.60\% C)}: Predominio de la fase oscura de perlita ($\sim$ 78\%) con una fina red de ferrita proeutectoide clara delineando los antiguos límites de grano de austenita.
-    \item \textbf{AISI 1080 (0.77\% C) --- 500 aumentos}: Acero de composición cercana al eutectoide, mostrando una estructura 100\% perlítica de láminas alternas de ferrita y cementita (Fig. \ref{fig:estructuras}c, der.).
-\end{itemize}
 
 \begin{figure*}[htbp]
 \centering
@@ -176,7 +193,7 @@ La correspondencia entre estas estimaciones teóricas y las observaciones experi
 \end{figure*}
 
 \subsection{El Estado de Entrega de Aleaciones e AISI 4340}
-La pregunta recurrente en el laboratorio, \textit{¿Qué quiere decir estado de entrega?}, se refiere a la condición microestructural y mecánica en la que un proveedor suministra el material. Por lo general, se entrega con la **menor dureza posible** (estado recocido, con estructura de ferrita y perlita basta o esferoidizada) para facilitar los procesos de corte, mecanizado y conformado, antes de que el usuario final realice los tratamientos térmicos de endurecimiento. El AISI 4340 en este estado presenta una microestructura de ferrita en forma circular y alargada con perlita, idónea para el maquinado.
+La pregunta recurrente en el laboratorio, \textit{¿Qué quiere decir estado de entrega?}, se refiere a la condición microestructural y mecánica en la que un proveedor suministra el material. Por lo general, se entrega con la \textbf{menor dureza posible} (estado recocido, con estructura de ferrita y perlita basta o esferoidizada) para facilitar los procesos de corte, mecanizado y conformado, antes de que el usuario final realice los tratamientos térmicos de endurecimiento. El AISI 4340 en este estado presenta una microestructura de ferrita en forma circular y alargada con perlita, idónea para el maquinado.
 
 \subsection{Aleaciones Especiales y Tratamientos Térmicos}
 Se identificaron estructuras fuera de equilibrio y aleaciones específicas:
@@ -187,34 +204,6 @@ Se identificaron estructuras fuera de equilibrio y aleaciones específicas:
     \item \textbf{Acero 8620 Cementado (Ferrítico-Perlítico / Martensítico)}: Este acero de cementación mostró una marcada gradación microestructural (Fig. \ref{fig:estructuras}f). En el núcleo se conserva la estructura tenaz original (ferrítico-perlítica, $\sim 0.20\%$ C), mientras que en la superficie sobre-carburada y templada se visualiza una capa dura de martensita. La transición entre la baquelita de montaje, la zona de cementación y el núcleo es un indicador del éxito del tratamiento termoquímico.
     \item \textbf{Acero H13 para Herramientas (200x) y Martensita Revenida}: Se observó una densa dispersión de pequeñas partículas claras y redondeadas de carburos complejos de cromo, vanadio y molibdeno ($M_7C_3, M_{23}C_6$) sobre una matriz de martensita altamente revenida (Fig. \ref{fig:estructuras}e, der.). Esta estructura proporciona una excepcional resistencia al desgaste y estabilidad térmica (dureza en caliente).
 \end{itemize}
-
-% ==============================================================================
-% TABLA RESUMEN DE MUESTRAS
-% ==============================================================================
-\begin{table*}[t]
-\centering
-\caption{Resumen Microestructural, Morfológico y Normas Aplicables de las Muestras de la Práctica}
-\label{tab:resumen_muestras}
-\renewcommand{\arraystretch}{1.2}
-\footnotesize
-\begin{tabularx}{\textwidth}{@{} >{\raggedright\arraybackslash}p{2.6cm} c >{\raggedright\arraybackslash}p{2.8cm} >{\raggedright\arraybackslash}X c @{}}
-\toprule
-\textbf{Material / Probeta} & \textbf{\% C} & \textbf{Tratamiento / Estado} & \textbf{Fases e Inclusiones Observadas} & \textbf{Norma} \\ \midrule
-Inclusiones (Aceros) & Variable & Sin ataque (pulido) & Óxidos (redondeados) y Sulfuros (alargados) & ASTM E45 / E407 \\
-Hierro Puro & $\sim 0$ & Deformado en frío & Ferrita con granos alargados & ASTM E112 \\
-AISI 1005 & 0.05 & Recocido & Ferrita equiaxial, límites oscuros (trazas de perlita) & ASTM E112 \\
-AISI 1020 & 0.20 & Estado de entrega & Ferrita ($\sim$ 75\%) y Perlita oscura ($\sim$ 25\%) & ASTM E112 \\
-AISI 1045 & 0.45 & Estado de entrega & Ferrita ($\sim$ 42\%) y Perlita ($\sim$ 58\%) circular/alargada & ASTM E112 \\
-AISI 1060 & 0.60 & Normalizado & Perlita mayoritaria ($\sim$ 78\%) y red de Ferrita ($\sim$ 22\%) & ASTM E112 \\
-AISI 1080 (500x) & 0.77 & Eutectoide & 100\% Perlita laminar basta & ASTM E112 \\
-AISI 4340 & 0.40 & Estado de entrega & Ferrita y Perlita con menor dureza para mecanizado & ASTM E112 \\
-Acero 2320 & 0.20 & Templado (malo) & Martensita en agujas (alta fragilidad, sin revenir) & ASTM E45 \\
-Acero 8620 & 0.20 & Cementado y templado & Capa martensítica dura y núcleo ferrítico-perlítico tenaz & ASTM E407 \\
-Acero H13 (200x) & 0.40 & Templado y revenido & Carburos complejos de Cr/V/Mo en martensita revenida & ASTM E407 \\
-Fundición Gris & 2.5 -- 4.0 & Enfriamiento lento & Grafito alargado (láminas/flake) en matriz metalúrgica & ASTM A247 \\
-Fundición Blanca & 2.5 -- 4.0 & Enfriamiento rápido & Ledeburita (matriz eutéctica cementita + austenita) & ASTM A247 \\ \bottomrule
-\end{tabularx}
-\end{table*}
 
 % ==============================================================================
 % CONCLUSIONES
@@ -245,6 +234,10 @@ Todos los autores contribuyeron equitativamente en la toma de apuntes morfológi
 \bibitem{callister} W. D. Callister y D. G. Rethwisch, \textit{Introducción a la ciencia e ingeniería de los materiales}, 2ª ed. Barcelona: Reverté, 2016.
 \bibitem{ashby2} M. F. Ashby y D. R. Jones, \textit{Engineering Materials 2: An Introduction to Microstructures and Processing}, 4ª ed. Oxford: Elsevier, 2012.
 \bibitem{shackelford} J. F. Shackelford, \textit{Introducción a la ciencia de materiales para ingenieros}, 6ª ed. Madrid: Pearson Education, 2005.
+\bibitem{astm_e45} ASTM International, \textit{Standard Test Methods for Determining the Inclusion Content of Steel}, ASTM E45-18, West Conshohocken, PA, 2018.
+\bibitem{astm_e407} ASTM International, \textit{Standard Practice for Microetching Metals and Alloys}, ASTM E407-07(2015)e1, West Conshohocken, PA, 2015.
+\bibitem{astm_e112} ASTM International, \textit{Standard Test Methods for Determining Average Grain Size}, ASTM E112-13, West Conshohocken, PA, 2013.
+\bibitem{astm_a247} ASTM International, \textit{Standard Test Method for Evaluating the Microstructure of Graphite in Iron Castings}, ASTM A247-19, West Conshohocken, PA, 2019.
 \end{thebibliography}
 
 \end{document}

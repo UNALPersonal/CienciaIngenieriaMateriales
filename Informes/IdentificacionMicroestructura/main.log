@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.11.20)  23 NOV 2026 22:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.11.20)  23 NOV 2026 23:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -643,32 +643,36 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 
 
 ]
-<./Figuras/esquema_microscopio_metalografico.png, id=15, 513.117pt x 390.258pt>
+<./Figuras/esquema_microscopio_metalografico.png, id=15, 499.8675pt x 427.3566pt>
 File: ./Figuras/esquema_microscopio_metalografico.png Graphic file (type png)
 <use ./Figuras/esquema_microscopio_metalografico.png>
 Package pdftex.def Info: ./Figuras/esquema_microscopio_metalografico.png  used on input line 118.
-(pdftex.def)             Requested size: 239.39923pt x 182.07549pt.
-<./Figuras/esquema_inclusiones_microestructuras.png, id=17, 821.469pt x 539.616pt>
+(pdftex.def)             Requested size: 239.39923pt x 204.67236pt.
+<./Figuras/esquema_inclusiones_microestructuras.png, id=17, 1268.74pt x 851.18pt>
 File: ./Figuras/esquema_inclusiones_microestructuras.png Graphic file (type png)
 <use ./Figuras/esquema_inclusiones_microestructuras.png>
-Package pdftex.def Info: ./Figuras/esquema_inclusiones_microestructuras.png  used on input line 142.
-(pdftex.def)             Requested size: 505.6778pt x 332.1871pt.
- [2 <./Figuras/esquema_microscopio_metalografico.png>]
-<./Figuras/diagrama_fe_fe3c_muestras.png, id=25, 679.338pt x 383.031pt>
+Package pdftex.def Info: ./Figuras/esquema_inclusiones_microestructuras.png  used on input line 170.
+(pdftex.def)             Requested size: 495.36346pt x 332.33551pt.
+<./Figuras/diagrama_fe_fe3c_muestras.png, id=18, 1521.685pt x 706.64pt>
 File: ./Figuras/diagrama_fe_fe3c_muestras.png Graphic file (type png)
 <use ./Figuras/diagrama_fe_fe3c_muestras.png>
-Package pdftex.def Info: ./Figuras/diagrama_fe_fe3c_muestras.png  used on input line 160.
-(pdftex.def)             Requested size: 495.36346pt x 279.30638pt.
-<./Figuras/grafica_palanca_carbono.jpg, id=26, 1573.88pt x 674.52pt>
+Package pdftex.def Info: ./Figuras/diagrama_fe_fe3c_muestras.png  used on input line 177.
+(pdftex.def)             Requested size: 495.36346pt x 230.03265pt.
+<./Figuras/grafica_palanca_carbono.jpg, id=19, 1573.88pt x 674.52pt>
 File: ./Figuras/grafica_palanca_carbono.jpg Graphic file (type jpg)
 <use ./Figuras/grafica_palanca_carbono.jpg>
-Package pdftex.def Info: ./Figuras/grafica_palanca_carbono.jpg  used on input line 173.
+Package pdftex.def Info: ./Figuras/grafica_palanca_carbono.jpg  used on input line 190.
 (pdftex.def)             Requested size: 495.36346pt x 212.28966pt.
- [3 <./Figuras/esquema_inclusiones_microestructuras.png>] [4 <./Figuras/diagrama_fe_fe3c_muestras.png> <./Figuras/grafica_palanca_carbono.jpg>]
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 244.
+ [2 <./Figuras/esquema_microscopio_metalografico.png>] [3 <./Figuras/esquema_inclusiones_microestructuras.png> <./Figuras/diagrama_fe_fe3c_muestras.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [4 <./Figuras/grafica_palanca_carbono.jpg>]
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 233.
  (C:\Users\neujo\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-) [5] [6] (main.aux
+) [5
+
+] (main.aux
 LaTeX Info: Redefining \. on input line 12.
 LaTeX Info: Redefining \% on input line 12.
 )
@@ -678,17 +682,17 @@ L3 programming layer <2026-09-09>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 21611 strings out of 467310
- 449595 string characters out of 5402813
- 905432 words of memory out of 5000000
- 50407 multiletter control sequences out of 15000+600000
- 762378 words of font info for 328 fonts, out of 8000000 for 9000
+ 21612 strings out of 467310
+ 449608 string characters out of 5402813
+ 913354 words of memory out of 5000000
+ 50411 multiletter control sequences out of 15000+600000
+ 762346 words of font info for 326 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  92i,10n,104p,1679b,786s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/neujo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/neujo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/neujo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/neujo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/neujo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/neujo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/neujo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/neujo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/neujo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/neujo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/neujo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Users/neujo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/neujo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/neujo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/neujo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (6 pages, 1959436 bytes).
+Output written on main.pdf (5 pages, 2131176 bytes).
 PDF statistics:
- 108 PDF objects out of 1000 (max. 8388607)
+ 103 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  62497 words of extra memory for PDF output out of 74296 (max. 10000000)
 
