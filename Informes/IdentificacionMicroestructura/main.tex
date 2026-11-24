@@ -1,0 +1,250 @@
+\documentclass[journal]{IEEEtran}
+
+% --- Paquetes fundamentales de compatibilidad y lenguaje ---
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[spanish,es-nodecimaldot,es-tabla]{babel}
+
+% --- Paquetes de gráficos y matemáticas ---
+\usepackage{graphicx}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{cite}
+\usepackage{microtype}
+\usepackage{tikz}
+\usetikzlibrary{shapes,arrows,positioning,fit}
+
+% --- Rutas de búsqueda de imágenes (Carpeta raíz, Figuras y data) ---
+\graphicspath{{./}{./Figuras/}{./data/}}
+
+% --- Ajustes de traducción oficiales para IEEEtran ---
+\renewcommand{\tablename}{TABLA}
+\renewcommand{\figurename}{Fig.}
+
+\begin{document}
+
+% ==============================================================================
+% PORTADA / ENCABEZADO FORMATO OFICIAL IEEE
+% ==============================================================================
+\title{Identificación y Análisis Microestructural de Aceros, Fundiciones de Hierro y Tratamientos Térmicos}
+
+\author{
+    \IEEEauthorblockN{
+        Juan José Tobar Álvarez, 
+        Angélica Plata Martínez, 
+        Sergio Correales Sarmiento, \\
+        Daniel Alejandro Carvajal Guecha y 
+        Paula Stephania Perez Gil
+    }\\
+    \IEEEauthorblockA{
+        \textit{Departamento de Ingeniería Mecánica y Mecatrónica, Facultad de Ingeniería}\\
+        \textit{Universidad Nacional de Colombia, Sede Bogotá}\\
+        \textit{Ciencia e Ingeniería de Materiales (2017256-1), Grupo 01}\\
+        \textit{Prof. Jhon Jairo Olaya Flórez --- Práctica de Microestructura, 23 de noviembre de 2026}\\
+        Email: \{jutobara, anplatam, scorreales, dcarvajalgu, pperezgi\}@unal.edu.co
+    }
+}
+
+\maketitle
+
+% ==============================================================================
+% RESUMEN / ABSTRACT
+% ==============================================================================
+\begin{abstract}
+La caracterización microestructural mediante microscopía óptica es fundamental para comprender la relación entre el procesamiento, la microestructura y las propiedades mecánicas de las aleaciones ferrosas. En esta práctica de laboratorio, se identificaron y analizaron de manera secuencial diversas muestras de aceros al carbono, aceros aleados, fundiciones de hierro y tratamientos térmicos, utilizando microscopios metalográficos de luz reflejada. Para prevenir el enmascaramiento de fases y defectos, se realizó una rigurosa evaluación inicial sin ataque químico que permitió la identificación y clasificación de inclusiones no metálicas (óxidos redondeados y sulfuros alargados) bajo la norma ASTM E45, seguido de un ataque con Nital al 2\% para revelar los límites de grano y constituyentes estructurales. Se caracterizaron la ferrita, perlita, martensita, martensita revenida y carburos complejos en aceros como AISI 1005, 1020, 1045, 1060, 1080 (a 500x), 4340 (analizando su ``estado de entrega''), 8620 y H13, así como grafito laminar en fundición gris y ledeburita en fundición blanca. Se correlacionaron cuantitativamente las fracciones de fase obtenidas experimentalmente con la regla de la palanca teórica en el diagrama de fases $Fe-Fe_3C$, concluyendo sobre el efecto directo del carbono y de los tratamientos térmicos (como el temple y revenido) en la dureza y en la viabilidad técnica de los materiales industriales.
+\end{abstract}
+
+\begin{IEEEkeywords}
+Microscopía metalográfica, ataque químico, inclusiones, regla de la palanca, ferrita, perlita, tratamientos térmicos, martensita.
+\end{IEEEkeywords}
+
+% ==============================================================================
+% INTRODUCCIÓN Y OBJETIVOS
+% ==============================================================================
+\section{Introducción}
+\IEEEPARstart{L}{a} metalografía es la ciencia que estudia la constitución estructural de los metales y aleaciones, permitiendo correlacionar de forma directa el tratamiento mecánico y térmico de un material con su comportamiento en servicio \cite{smith}. El análisis microestructural mediante microscopía óptica de luz reflejada es la técnica más accesible y extendida para determinar la calidad de una aleación, estimar sus propiedades mecánicas (como resistencia y tenacidad) y diagnosticar fallas. 
+
+En aleaciones ferrosas, las propiedades mecánicas están regidas por las fases presentes (ferrita, cementita, perlita, martensita, etc.), el tamaño y la morfología del grano, y la presencia de impurezas inevitables conocidas como inclusiones no metálicas \cite{callister}. Estas inclusiones, como óxidos y sulfuros, se originan durante el proceso de desoxidación y solidificación del acero. Su forma, cantidad y distribución alteran la isotropía del material, pudiendo actuar como concentradores de esfuerzos y favorecer la falla por fatiga o impacto \cite{ashby2}.
+
+Un aspecto crítico de la preparación metalográfica es el orden de revelado: las inclusiones deben evaluarse en la condición de pulido ``espejo'' (sin ataque), ya que el ataque químico posterior degrada la matriz circundante, pudiendo enmascararlas, disolverlas o confundirlas con picaduras o fases oscuras como la perlita. Posteriormente, el ataque con reactivos específicos (usualmente Nital al 2\% para aceros) revela los límites de grano y la microestructura al atacar selectivamente zonas de alta energía o fases con distinta reactividad química \cite{shackelford}.
+
+\subsection{Objetivos de la Práctica}
+\begin{itemize}
+    \item Identificar y clasificar la morfología, cantidad y distribución de inclusiones no metálicas en aceros según la norma ASTM E45, distinguiendo entre óxidos (partículas redondeadas) y sulfuros (partículas alargadas) en estado sin ataque.
+    \item Analizar y diferenciar las microestructuras de diversos aceros al carbono (Hierro Puro, AISI 1005, 1020, 1045, 1060 y 1080) y correlacionar la fracción de perlita observada con el porcentaje de carbono mediante la regla de la palanca.
+    \item Interpretar el concepto de ``estado de entrega'' (como en el acero AISI 4340) en relación con el ablandamiento y la menor dureza posible requerida para el mecanizado.
+    \item Caracterizar las diferencias microestructurales entre fundiciones de hierro (gris y blanca) y evaluar el efecto de tratamientos térmicos y termoquímicos (como la martensita de temple no aceptable en el acero 2320, la martensita revenida y el proceso de cementación en el acero 8620) y la presencia de carburos en aceros para herramientas (H13).
+\end{itemize}
+
+% ==============================================================================
+% METODOLOGÍA EXPERIMENTAL
+% ==============================================================================
+\section{Metodología Experimental}
+El desarrollo experimental de la práctica se resume en la secuencia lógica ilustrada en el diagrama de flujo de la Fig. \ref{fig:diagrama_flujo}. No se tomaron fotografías directas en el microscopio por restricciones del laboratorio, pero se registraron minuciosamente los apuntes morfológicos y la fenomenología observada.
+
+\begin{figure}[htbp]
+\centering
+\begin{tikzpicture}[node distance=1.3cm, auto]
+    \tikzstyle{block} = [draw, fill=blue!10, text width=6.8cm, text centered, minimum height=0.6cm, rounded corners, font=\scriptsize]
+    \tikzstyle{line} = [draw, -latex', thick]
+    
+    \node [block] (prep) {1. Preparación de probetas (Corte, Desbaste, Pulido Espejo)};
+    \node [block, below of=prep] (inc) {2. Observación SIN ATAQUE (Identificación de inclusiones: óxidos redondeados y sulfuros alargados --- ASTM E45)};
+    \node [block, below of=inc] (ataque) {3. Ataque químico selectivo (Nital al 2\% para aceros)};
+    \node [block, below of=ataque] (micro) {4. Observación CON ATAQUE (Ferrita, Perlita, Martensita, etc. en microscopios)};
+    \node [block, below of=micro] (analisis) {5. Correlación teórica y microestructural (Regla de la palanca, dureza e influencia del \%C)};
+    
+    \path [line] (prep) -- (inc);
+    \path [line] (inc) -- (ataque);
+    \path [line] (ataque) -- (micro);
+    \path [line] (micro) -- (analisis);
+\end{tikzpicture}
+\caption{Metodología secuencial para la identificación de inclusiones y microestructura de aleaciones ferrosas en el laboratorio.}
+\label{fig:diagrama_flujo}
+\end{figure}
+
+\subsection{Instrumentación y Equipos}
+Para el análisis de las probetas se utilizaron microscopios metalográficos de luz reflejada (incidente), los cuales son esenciales para materiales opacos. El haz de luz se dirige desde la fuente, pasa a través de un sistema de lentes condensadoras y se refleja en un espejo semitransparente orientado a 45 grados para descender verticalmente por el objetivo hacia la muestra pulida. La luz reflejada por la topografía de la muestra regresa a través del objetivo y el espejo semitransparente hacia el ocular o la cámara de captura (ver esquema óptico en la Fig. \ref{fig:microscopio}). Los equipos disponibles en el laboratorio incluyeron:
+\begin{enumerate}
+    \item \textbf{Olympus GX41}: Microscopio metalográfico invertido, ideal para un rápido enfoque al asentar la cara pulida sobre la platina.
+    \item \textbf{Zeiss Primotech}: Microscopio de luz reflejada con sistema de adquisición digital de imágenes.
+    \item \textbf{Unitron MMU (No. 33717)}: Microscopio metalográfico monocular de diseño clásico.
+\end{enumerate}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.95\linewidth]{esquema_microscopio_metalografico}
+\caption{Esquema óptico de luz reflejada de los microscopios metalográficos utilizados en la práctica.}
+\label{fig:microscopio}
+\end{figure}
+
+\subsection{Preparación de la Probeta y Ataque Químico}
+Las muestras se sometieron previamente a un proceso de desbaste con papel abrasivo de carburo de silicio (granos 220 a 1200) y pulido final con alúmina o diamante (1 y 0.05 $\mu$m) en paños giratorios hasta lograr un acabado especular. 
+Para la observación de la microestructura se aplicó un ataque químico por inmersión o frotado con \textbf{Nital al 2\%} (ácido nítrico en etanol) durante un tiempo controlado de 5 a 15 segundos. El reactivo ataca preferencialmente los límites de grano y la fase de cementita, dispersando la luz y revelando el contraste entre la ferrita (clara) y la perlita o fases templadas (oscuras).
+
+% ==============================================================================
+% RESULTADOS Y DISCUSIÓN
+% ==============================================================================
+\section{Resultados y Discusión}
+
+\subsection{Análisis de Inclusiones No Metálicas (Estado Sin Ataque)}
+La observación de los aceros en estado sin ataque (pulido espejo) reveló una dispersión de fases no metálicas provenientes del proceso de desoxidación y refinación (Fig. \ref{fig:estructuras}a). Se identificaron dos morfologías principales:
+\begin{itemize}
+    \item \textbf{Partículas redondeadas (Óxidos)}: Inclusiones globulares oscuras y aisladas, correspondientes generalmente a complejos de óxidos de silicio, aluminio o hierro. No se deforman durante el conformado en caliente debido a su alta dureza y fragilidad.
+    \item \textbf{Partículas alargadas (Sulfuros)}: Inclusiones de morfología elongada y orientada en la dirección del laminado o forjado, compuestas de sulfuro de manganeso ($MnS$). Al ser dúctiles a altas temperaturas, se deforman plásticamente junto con la matriz de acero.
+\end{itemize}
+Su cuantificación y clasificación se realiza bajo la norma ASTM E45 mediante patrones de comparación para determinar la severidad de inclusiones tipo A (sulfuros), B (aluminatos), C (silicatos) y D (óxidos globulares).
+
+\begin{figure*}[htbp]
+\centering
+\includegraphics[width=0.98\textwidth]{esquema_inclusiones_microestructuras}
+\caption{Esquemas morfológicos detallados observados al microscopio para todas las muestras evaluadas: (a) Inclusiones no metálicas sin ataque (ASTM E45), (b) Variación de ferrita alargada a equiaxial, (c) Evolución de perlita con el \%C, (d) Fundición gris (laminar) y blanca (ledeburita), (e) Estructuras fuera de equilibrio (martensita y carburos H13), y (f) Gradiente microestructural en acero 8620 cementado.}
+\label{fig:estructuras}
+\end{figure*}
+
+\subsection{Microestructuras de Aceros al Carbono}
+Tras el ataque con Nital al 2\%, se revelaron los constituyentes en equilibrio de la serie de aceros al carbono, cuyas morfologías se esquematizan en la Fig. \ref{fig:estructuras} y se ubican térmicamente en el diagrama $Fe-Fe_3C$ de la Fig. \ref{fig:diagrama_fe_fe3c}:
+\begin{itemize}
+    \item \textbf{Hierro Puro}: Presentó una microestructura casi 100\% ferrítica con granos alargados (Fig. \ref{fig:estructuras}b, izq.) debido a un proceso previo de deformación en frío no recristalizado, con un contenido de carbono infinitesimal.
+    \item \textbf{AISI 1005 (0.05\% C)}: Constituido por granos de ferrita equiaxiales (Fig. \ref{fig:estructuras}b, der.) con bordes de grano bien definidos y una mínima fracción de perlita en los límites, debido a su bajísimo contenido de carbono.
+    \item \textbf{AISI 1020 (0.20\% C)}: Acero hipoeutectoide con una matriz mayoritaria de ferrita proeutectoide (clara) y aproximadamente un 25\% de colonias de perlita (oscura) en forma de parches o colonias en los límites de grano (Fig. \ref{fig:estructuras}c, izq.).
+    \item \textbf{AISI 1045 (0.45\% C)}: Estructura mixta de ferrita y perlita en proporciones similares ($\sim$ 58\% de perlita y $\sim$ 42\% de ferrita).
+    \item \textbf{AISI 1060 (0.60\% C)}: Predominio de la fase oscura de perlita ($\sim$ 78\%) con una fina red de ferrita proeutectoide clara delineando los antiguos límites de grano de austenita.
+    \item \textbf{AISI 1080 (0.77\% C) --- 500 aumentos}: Acero de composición cercana al eutectoide, mostrando una estructura 100\% perlítica de láminas alternas de ferrita y cementita (Fig. \ref{fig:estructuras}c, der.).
+\end{itemize}
+
+\begin{figure*}[htbp]
+\centering
+\includegraphics[width=0.96\textwidth]{diagrama_fe_fe3c_muestras}
+\caption{Diagrama de equilibrio de fases $Fe-Fe_3C$ indicando las composiciones de carbono y regiones microestructurales de todas las probetas analizadas en la práctica (aceros hipoeutectoides, eutectoides y fundiciones de hierro).}
+\label{fig:diagrama_fe_fe3c}
+\end{figure*}
+
+La relación entre el contenido de carbono y las fracciones de fase observadas se rige por la \textbf{regla de la palanca} en el diagrama $Fe-Fe_3C$ para enfriamiento lento (Fig. \ref{fig:palanca}a). La fracción de perlita ($f_P$) para aceros hipoeutectoides ($C_o < 0.77\%$) a temperatura ambiente se calcula como:
+\begin{equation}
+    f_P = \frac{C_o - C_{\alpha}}{C_P - C_{\alpha}} \times 100 \approx \frac{C_o - 0.008}{0.77 - 0.008} \times 100
+\end{equation}
+La correspondencia entre estas estimaciones teóricas y las observaciones experimentales se detalla en el gráfico de la Fig. \ref{fig:palanca}b y en la Tabla \ref{tab:resumen_muestras}.
+
+\begin{figure*}[htbp]
+\centering
+\includegraphics[width=0.96\textwidth]{grafica_palanca_carbono}
+\caption{Análisis cuantitativo de fases: (a) Representación de la regla de la palanca en el diagrama de equilibrio $Fe-Fe_3C$ para los aceros evaluados, señalando de forma precisa los puntos experimentales (rojos), y (b) Distribución teórica de las fracciones de ferrita y perlita en función del \% de carbono de cada muestra.}
+\label{fig:palanca}
+\end{figure*}
+
+\subsection{El Estado de Entrega de Aleaciones e AISI 4340}
+La pregunta recurrente en el laboratorio, \textit{¿Qué quiere decir estado de entrega?}, se refiere a la condición microestructural y mecánica en la que un proveedor suministra el material. Por lo general, se entrega con la **menor dureza posible** (estado recocido, con estructura de ferrita y perlita basta o esferoidizada) para facilitar los procesos de corte, mecanizado y conformado, antes de que el usuario final realice los tratamientos térmicos de endurecimiento. El AISI 4340 en este estado presenta una microestructura de ferrita en forma circular y alargada con perlita, idónea para el maquinado.
+
+\subsection{Aleaciones Especiales y Tratamientos Térmicos}
+Se identificaron estructuras fuera de equilibrio y aleaciones específicas:
+\begin{itemize}
+    \item \textbf{Fundición Gris (Grafito Alargado - Flake)}: Presentó hojuelas o láminas de grafito (Fig. \ref{fig:estructuras}d, izq.) inmersas en una matriz ferrítica-perlítica, correspondientes a una morfología laminar. El grafito libre le otorga una alta maquinabilidad y amortiguamiento, pero baja tenacidad.
+    \item \textbf{Fundición Blanca Eutéctica}: Estructura caracterizada por la ausencia de grafito libre (Fig. \ref{fig:estructuras}d, der.). El carbono se combina para formar cementita primaria y ledeburita (eutéctico de austenita/martensita y cementita), resultando en una estructura sumamente dura, blanca y frágil.
+    \item \textbf{Martensita (Acero 2320 - Tratamiento Térmico No Aceptable)}: El temple de este acero de baja aleación produjo una estructura de agujas o listones de martensita (Fig. \ref{fig:estructuras}e, izq.), que suele ser excesivamente frágil y tensionada si no se somete a un revenido posterior, considerándose no aceptable para servicios que requieran tenacidad.
+    \item \textbf{Acero 8620 Cementado (Ferrítico-Perlítico / Martensítico)}: Este acero de cementación mostró una marcada gradación microestructural (Fig. \ref{fig:estructuras}f). En el núcleo se conserva la estructura tenaz original (ferrítico-perlítica, $\sim 0.20\%$ C), mientras que en la superficie sobre-carburada y templada se visualiza una capa dura de martensita. La transición entre la baquelita de montaje, la zona de cementación y el núcleo es un indicador del éxito del tratamiento termoquímico.
+    \item \textbf{Acero H13 para Herramientas (200x) y Martensita Revenida}: Se observó una densa dispersión de pequeñas partículas claras y redondeadas de carburos complejos de cromo, vanadio y molibdeno ($M_7C_3, M_{23}C_6$) sobre una matriz de martensita altamente revenida (Fig. \ref{fig:estructuras}e, der.). Esta estructura proporciona una excepcional resistencia al desgaste y estabilidad térmica (dureza en caliente).
+\end{itemize}
+
+% ==============================================================================
+% TABLA RESUMEN DE MUESTRAS
+% ==============================================================================
+\begin{table*}[t]
+\centering
+\caption{Resumen Microestructural, Morfológico y Normas Aplicables de las Muestras de la Práctica}
+\label{tab:resumen_muestras}
+\renewcommand{\arraystretch}{1.2}
+\footnotesize
+\begin{tabularx}{\textwidth}{@{} >{\raggedright\arraybackslash}p{2.6cm} c >{\raggedright\arraybackslash}p{2.8cm} >{\raggedright\arraybackslash}X c @{}}
+\toprule
+\textbf{Material / Probeta} & \textbf{\% C} & \textbf{Tratamiento / Estado} & \textbf{Fases e Inclusiones Observadas} & \textbf{Norma} \\ \midrule
+Inclusiones (Aceros) & Variable & Sin ataque (pulido) & Óxidos (redondeados) y Sulfuros (alargados) & ASTM E45 / E407 \\
+Hierro Puro & $\sim 0$ & Deformado en frío & Ferrita con granos alargados & ASTM E112 \\
+AISI 1005 & 0.05 & Recocido & Ferrita equiaxial, límites oscuros (trazas de perlita) & ASTM E112 \\
+AISI 1020 & 0.20 & Estado de entrega & Ferrita ($\sim$ 75\%) y Perlita oscura ($\sim$ 25\%) & ASTM E112 \\
+AISI 1045 & 0.45 & Estado de entrega & Ferrita ($\sim$ 42\%) y Perlita ($\sim$ 58\%) circular/alargada & ASTM E112 \\
+AISI 1060 & 0.60 & Normalizado & Perlita mayoritaria ($\sim$ 78\%) y red de Ferrita ($\sim$ 22\%) & ASTM E112 \\
+AISI 1080 (500x) & 0.77 & Eutectoide & 100\% Perlita laminar basta & ASTM E112 \\
+AISI 4340 & 0.40 & Estado de entrega & Ferrita y Perlita con menor dureza para mecanizado & ASTM E112 \\
+Acero 2320 & 0.20 & Templado (malo) & Martensita en agujas (alta fragilidad, sin revenir) & ASTM E45 \\
+Acero 8620 & 0.20 & Cementado y templado & Capa martensítica dura y núcleo ferrítico-perlítico tenaz & ASTM E407 \\
+Acero H13 (200x) & 0.40 & Templado y revenido & Carburos complejos de Cr/V/Mo en martensita revenida & ASTM E407 \\
+Fundición Gris & 2.5 -- 4.0 & Enfriamiento lento & Grafito alargado (láminas/flake) en matriz metalúrgica & ASTM A247 \\
+Fundición Blanca & 2.5 -- 4.0 & Enfriamiento rápido & Ledeburita (matriz eutéctica cementita + austenita) & ASTM A247 \\ \bottomrule
+\end{tabularx}
+\end{table*}
+
+% ==============================================================================
+% CONCLUSIONES
+% ==============================================================================
+\section{Conclusiones}
+Se cumplieron satisfactoriamente los objetivos de la práctica de identificación microestructural, extrayéndose las siguientes conclusiones:
+\begin{enumerate}
+    \item Se demostró la necesidad crítica de analizar las muestras en estado sin ataque para la identificación y clasificación de inclusiones no metálicas (ASTM E45), ya que el ataque posterior con Nital al 2\% puede enmascarar los óxidos redondeados y sulfuros alargados.
+    \item Se verificó la dependencia directa entre el porcentaje de carbono y la microestructura en los aceros al carbono (Hierro Puro, AISI 1005, 1020, 1045, 1060 y 1080), donde el incremento de perlita oscura sobre la matriz de ferrita clara se ajusta de manera coherente con los cálculos teóricos de la regla de la palanca.
+    \item Se aclaró que el ``estado de entrega'' (como en el AISI 4340) busca la menor dureza posible (recocido) para asegurar un mecanizado económicamente viable, requiriendo de tratamientos posteriores para alcanzar las propiedades finales en servicio.
+    \item La caracterización de tratamientos térmicos y termoquímicos (como la martensita en el 2320 y la capa cementada en el 8620) y las fundiciones (gris con grafito laminar y blanca eutéctica) evidenció la versatilidad de las aleaciones ferrosas para modificar drásticamente su microestructura y, por ende, su idoneidad para aplicaciones específicas de ingeniería.
+\end{enumerate}
+
+% ==============================================================================
+% AGRADECIMIENTOS Y CONTRIBUCIONES
+% ==============================================================================
+\section{Agradecimientos}
+Se agradece al laboratorista y al personal técnico del Departamento de Ingeniería Mecánica y Mecatrónica de la Universidad Nacional de Colombia por su valiosa asistencia en la preparación de las probetas y en la operación de los microscopios.
+
+\section*{Participación de los Autores}
+Todos los autores contribuyeron equitativamente en la toma de apuntes morfológicos durante la práctica, el análisis cuantitativo de la regla de la palanca y en la redacción, revisión y edición final del presente manuscrito.
+
+% ==============================================================================
+% REFERENCIAS BIBLIOGRÁFICAS
+% ==============================================================================
+\begin{thebibliography}{9}
+\bibitem{smith} W. F. Smith y J. Hashemi, \textit{Fundamentos de la Ciencia e Ingeniería de Materiales}, 3ª ed. México: McGraw-Hill, 2004.
+\bibitem{callister} W. D. Callister y D. G. Rethwisch, \textit{Introducción a la ciencia e ingeniería de los materiales}, 2ª ed. Barcelona: Reverté, 2016.
+\bibitem{ashby2} M. F. Ashby y D. R. Jones, \textit{Engineering Materials 2: An Introduction to Microstructures and Processing}, 4ª ed. Oxford: Elsevier, 2012.
+\bibitem{shackelford} J. F. Shackelford, \textit{Introducción a la ciencia de materiales para ingenieros}, 6ª ed. Madrid: Pearson Education, 2005.
+\end{thebibliography}
+
+\end{document}
