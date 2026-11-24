@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.11.20)  23 NOV 2026 23:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.11.24)  24 NOV 2026 00:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -25,18 +25,14 @@ File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 -- Using 8.5in x 11in (letter) paper.
 -- Using PDF output.
 \@IEEEnormalsizeunitybaselineskip=\dimen153
--- This is a 10 point document.
+-- This is an 11 point document.
 LaTeX Encoding Info:    Redeclaring text command \textunderscore (encoding ?) on input line 937.
 \CLASSINFOnormalsizebaselineskip=\dimen154
 \CLASSINFOnormalsizeunitybaselineskip=\dimen155
 \IEEEnormaljot=\dimen156
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <5> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <7> not available
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <6> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
@@ -505,96 +501,55 @@ File: pgfmodulematrix.code.tex 2026-08-01 v3.1.12 (3.1.12)
 \tikz@expandcount=\count334
  (C:\Users\neujo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2026-08-01 v3.1.12 (3.1.12)
-))) (C:\Users\neujo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryshapes.code.tex
-File: tikzlibraryshapes.code.tex 2026-08-01 v3.1.12 (3.1.12)
- (C:\Users\neujo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryshapes.geometric.code.tex
-File: tikzlibraryshapes.geometric.code.tex 2026-08-01 v3.1.12 (3.1.12)
- (C:\Users\neujo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes\pgflibraryshapes.geometric.code.tex
-File: pgflibraryshapes.geometric.code.tex 2026-08-01 v3.1.12 (3.1.12)
-)) (C:\Users\neujo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryshapes.misc.code.tex
-File: tikzlibraryshapes.misc.code.tex 2026-08-01 v3.1.12 (3.1.12)
- (C:\Users\neujo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes\pgflibraryshapes.misc.code.tex
-File: pgflibraryshapes.misc.code.tex 2026-08-01 v3.1.12 (3.1.12)
-)) (C:\Users\neujo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryshapes.symbols.code.tex
-File: tikzlibraryshapes.symbols.code.tex 2026-08-01 v3.1.12 (3.1.12)
- (C:\Users\neujo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes\pgflibraryshapes.symbols.code.tex
-File: pgflibraryshapes.symbols.code.tex 2026-08-01 v3.1.12 (3.1.12)
-)) (C:\Users\neujo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryshapes.arrows.code.tex
-File: tikzlibraryshapes.arrows.code.tex 2026-08-01 v3.1.12 (3.1.12)
- (C:\Users\neujo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes\pgflibraryshapes.arrows.code.tex
-File: pgflibraryshapes.arrows.code.tex 2026-08-01 v3.1.12 (3.1.12)
-)) (C:\Users\neujo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryshapes.callouts.code.tex (C:\Users\neujo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes\pgflibraryshapes.callouts.code.tex)) (C:\Users\neujo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryshapes.multipart.code.tex
-File: tikzlibraryshapes.multipart.code.tex 2026-08-01 v3.1.12 (3.1.12)
- (C:\Users\neujo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes\pgflibraryshapes.multipart.code.tex
-File: pgflibraryshapes.multipart.code.tex 2026-08-01 v3.1.12 (3.1.12)
-\pgfnodepartlowerbox=\box71
-\pgfnodeparttwobox=\box72
-\pgfnodepartthreebox=\box73
-\pgfnodepartfourbox=\box74
-\pgfnodeparttwentybox=\box75
-\pgfnodepartnineteenbox=\box76
-\pgfnodeparteighteenbox=\box77
-\pgfnodepartseventeenbox=\box78
-\pgfnodepartsixteenbox=\box79
-\pgfnodepartfifteenbox=\box80
-\pgfnodepartfourteenbox=\box81
-\pgfnodepartthirteenbox=\box82
-\pgfnodeparttwelvebox=\box83
-\pgfnodepartelevenbox=\box84
-\pgfnodeparttenbox=\box85
-\pgfnodepartninebox=\box86
-\pgfnodeparteightbox=\box87
-\pgfnodepartsevenbox=\box88
-\pgfnodepartsixbox=\box89
-\pgfnodepartfivebox=\box90
-))) (C:\Users\neujo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryarrows.code.tex
-File: tikzlibraryarrows.code.tex 2026-08-01 v3.1.12 (3.1.12)
- (C:\Users\neujo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibraryarrows.code.tex
-File: pgflibraryarrows.code.tex 2026-08-01 v3.1.12 (3.1.12)
-\arrowsize=\dimen313
-)) (C:\Users\neujo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarypositioning.code.tex
+))) (C:\Users\neujo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibraryarrows.meta.code.tex
+File: pgflibraryarrows.meta.code.tex 2026-08-01 v3.1.12 (3.1.12)
+\pgfarrowinset=\dimen313
+\pgfarrowlength=\dimen314
+\pgfarrowwidth=\dimen315
+\pgfarrowlinewidth=\dimen316
+) (C:\Users\neujo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarypositioning.code.tex
 File: tikzlibrarypositioning.code.tex 2026-08-01 v3.1.12 (3.1.12)
-) (C:\Users\neujo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryfit.code.tex
-File: tikzlibraryfit.code.tex 2026-08-01 v3.1.12 (3.1.12)
+) (C:\Users\neujo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarybabel.code.tex
+File: tikzlibrarybabel.code.tex 2026-08-01 v3.1.12 (3.1.12)
 ) (C:\Users\neujo\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\l3backend-pdftex.def
 File: l3backend-pdftex.def 2026-09-09 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count335
 ) (main.aux
-LaTeX Info: Redefining \. on input line 12.
-LaTeX Info: Redefining \% on input line 12.
+LaTeX Info: Redefining \. on input line 18.
+LaTeX Info: Redefining \% on input line 18.
 Package babel Info: 'spanish' activates 'spanish' shorthands.
-(babel)             Reported on input line 12.
+(babel)             Reported on input line 18.
 )
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
 
--- Lines per column: 58 (exact).
-LaTeX Info: Redefining \. on input line 26.
-LaTeX Info: Redefining \% on input line 26.
+-- Lines per column: 52 (exact).
+LaTeX Info: Redefining \. on input line 30.
+LaTeX Info: Redefining \% on input line 30.
 (C:\Users\neujo\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count336
-\scratchdimen=\dimen314
-\scratchbox=\box91
+\scratchdimen=\dimen317
+\scratchbox=\box71
 \nofMPsegments=\count337
 \nofMParguments=\count338
 \everyMPshowfont=\toks43
 \MPscratchCnt=\count339
-\MPscratchDim=\dimen315
+\MPscratchDim=\dimen318
 \MPnumerator=\count340
 \makeMPintoPDFobject=\count341
 \everyMPtoPDFconversion=\toks44
@@ -604,13 +559,13 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (C:\Users\neujo\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-LaTeX Info: Redefining \microtypecontext on input line 26.
-Package microtype Info: Applying patch `item' on input line 26.
-Package microtype Info: Applying patch `toc' on input line 26.
-Package microtype Info: Applying patch `eqnum' on input line 26.
-Package microtype Info: Applying patch `footnote' on input line 26.
-Package microtype Info: Applying patch `verbatim' on input line 26.
-LaTeX Info: Redefining \microtypesetup on input line 26.
+LaTeX Info: Redefining \microtypecontext on input line 30.
+Package microtype Info: Applying patch `item' on input line 30.
+Package microtype Info: Applying patch `toc' on input line 30.
+Package microtype Info: Applying patch `eqnum' on input line 30.
+Package microtype Info: Applying patch `footnote' on input line 30.
+Package microtype Info: Applying patch `verbatim' on input line 30.
+LaTeX Info: Redefining \microtypesetup on input line 30.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -628,53 +583,63 @@ Package babel Info: Main language set to 'spanish'.
  (C:\Users\neujo\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 56.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 61.
  (C:\Users\neujo\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 ) (C:\Users\neujo\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 56.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 61.
  (C:\Users\neujo\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (C:\Users\neujo\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
-) [1{C:/Users/neujo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/neujo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}
+)
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 78.
+ [1{C:/Users/neujo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/neujo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}
 
 
-]
-<./Figuras/esquema_microscopio_metalografico.png, id=15, 499.8675pt x 427.3566pt>
-File: ./Figuras/esquema_microscopio_metalografico.png Graphic file (type png)
-<use ./Figuras/esquema_microscopio_metalografico.png>
-Package pdftex.def Info: ./Figuras/esquema_microscopio_metalografico.png  used on input line 118.
-(pdftex.def)             Requested size: 239.39923pt x 204.67236pt.
-<./Figuras/esquema_inclusiones_microestructuras.png, id=17, 1268.74pt x 851.18pt>
-File: ./Figuras/esquema_inclusiones_microestructuras.png Graphic file (type png)
-<use ./Figuras/esquema_inclusiones_microestructuras.png>
-Package pdftex.def Info: ./Figuras/esquema_inclusiones_microestructuras.png  used on input line 170.
-(pdftex.def)             Requested size: 495.36346pt x 332.33551pt.
-<./Figuras/diagrama_fe_fe3c_muestras.png, id=18, 1521.685pt x 706.64pt>
-File: ./Figuras/diagrama_fe_fe3c_muestras.png Graphic file (type png)
-<use ./Figuras/diagrama_fe_fe3c_muestras.png>
-Package pdftex.def Info: ./Figuras/diagrama_fe_fe3c_muestras.png  used on input line 177.
-(pdftex.def)             Requested size: 495.36346pt x 230.03265pt.
-<./Figuras/grafica_palanca_carbono.jpg, id=19, 1573.88pt x 674.52pt>
-File: ./Figuras/grafica_palanca_carbono.jpg Graphic file (type jpg)
-<use ./Figuras/grafica_palanca_carbono.jpg>
-Package pdftex.def Info: ./Figuras/grafica_palanca_carbono.jpg  used on input line 190.
-(pdftex.def)             Requested size: 495.36346pt x 212.28966pt.
- [2 <./Figuras/esquema_microscopio_metalografico.png>] [3 <./Figuras/esquema_inclusiones_microestructuras.png> <./Figuras/diagrama_fe_fe3c_muestras.png>]
+] [2]
+<./Figuras/fig_series_carbono.png, id=22, 527.571pt x 238.491pt>
+File: ./Figuras/fig_series_carbono.png Graphic file (type png)
+<use ./Figuras/fig_series_carbono.png>
+Package pdftex.def Info: ./Figuras/fig_series_carbono.png  used on input line 183.
+(pdftex.def)             Requested size: 516.0pt x 233.26105pt.
+<./Figuras/fig_fe_fe3c.pdf, id=24, 503.48227pt x 254.23558pt>
+File: ./Figuras/fig_fe_fe3c.pdf Graphic file (type pdf)
+<use ./Figuras/fig_fe_fe3c.pdf>
+Package pdftex.def Info: ./Figuras/fig_fe_fe3c.pdf  used on input line 195.
+(pdftex.def)             Requested size: 516.0pt x 260.57764pt.
+<./Figuras/fig_palanca.pdf, id=25, 463.66162pt x 232.47339pt>
+File: ./Figuras/fig_palanca.pdf Graphic file (type pdf)
+<use ./Figuras/fig_palanca.pdf>
+Package pdftex.def Info: ./Figuras/fig_palanca.pdf  used on input line 202.
+(pdftex.def)             Requested size: 516.0pt x 258.73314pt.
+ [3]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [4 <./Figuras/grafica_palanca_carbono.jpg>]
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 233.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [4 <./Figuras/fig_series_carbono.png> <./Figuras/fig_fe_fe3c.pdf>]
+Underfull \vbox (badness 4505) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [5 <./Figuras/fig_palanca.pdf>]
+<./Figuras/fig_estructuras_especiales.png, id=101, 527.571pt x 281.853pt>
+File: ./Figuras/fig_estructuras_especiales.png Graphic file (type png)
+<use ./Figuras/fig_estructuras_especiales.png>
+Package pdftex.def Info: ./Figuras/fig_estructuras_especiales.png  used on input line 241.
+(pdftex.def)             Requested size: 516.0pt x 275.67216pt.
+ [6]
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 282.
  (C:\Users\neujo\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-) [5
-
-] (main.aux
-LaTeX Info: Redefining \. on input line 12.
-LaTeX Info: Redefining \% on input line 12.
+) [7 <./Figuras/fig_estructuras_especiales.png>] (main.aux
+LaTeX Info: Redefining \. on input line 18.
+LaTeX Info: Redefining \% on input line 18.
 )
  ***********
 LaTeX2e <2026-11-01>
@@ -682,17 +647,17 @@ L3 programming layer <2026-09-09>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 21612 strings out of 467310
- 449608 string characters out of 5402813
- 913354 words of memory out of 5000000
- 50411 multiletter control sequences out of 15000+600000
- 762346 words of font info for 326 fonts, out of 8000000 for 9000
+ 19751 strings out of 467310
+ 389701 string characters out of 5402813
+ 838759 words of memory out of 5000000
+ 48487 multiletter control sequences out of 15000+600000
+ 765959 words of font info for 401 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 92i,10n,104p,1679b,786s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/neujo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/neujo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/neujo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/neujo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/neujo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/neujo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/neujo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/neujo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/neujo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/neujo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/neujo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Users/neujo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/neujo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/neujo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/neujo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (5 pages, 2131176 bytes).
+ 92i,10n,104p,1740b,800s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/neujo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/neujo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/neujo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/neujo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/neujo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/neujo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/neujo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/neujo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/neujo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/neujo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/neujo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/neujo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/neujo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/neujo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Users/neujo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/neujo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/neujo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/neujo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (7 pages, 1797348 bytes).
 PDF statistics:
- 103 PDF objects out of 1000 (max. 8388607)
+ 185 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 62497 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 73249 words of extra memory for PDF output out of 74296 (max. 10000000)
 
